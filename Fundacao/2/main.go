@@ -14,6 +14,3 @@ func main() {
 	a = "XX"
 	println(a)
 }
-
-func x() {
-}
