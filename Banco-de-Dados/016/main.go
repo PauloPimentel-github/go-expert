@@ -37,7 +37,7 @@ func main() {
 	// create product with category
 	db.Create(&Product{
 		Name:       "Chuteira Nike",
-		Price:      250.00,
+		Price:      250.0,
 		Categories: []Category{category, category2},
 	})
 
