@@ -46,6 +46,7 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
+
 	for _, category := range categories {
 		println("Categoria:", category.Name)
 		for _, product := range category.Products {
