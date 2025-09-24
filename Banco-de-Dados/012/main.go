@@ -43,6 +43,7 @@ func main() {
 	// relationship 1:N
 	var products []Product
 	db.Preload("Category").Find(&products)
+
 	for _, product := range products {
 		println(product.Name, product.Category.Name)
 	}
