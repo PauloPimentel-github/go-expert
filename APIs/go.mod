@@ -3,6 +3,7 @@ module github.com/PauloPimentel-github/go-expert/APIs
 go 1.25.1
 
 require (
+	github.com/go-chi/chi v1.5.1
 	github.com/spf13/viper v1.21.0
 	github.com/stretchr/testify v1.11.1
 	golang.org/x/crypto v0.0.0-20201221181555-eec23a3978ad
@@ -35,6 +36,7 @@ require (
 
 require (
 	github.com/fsnotify/fsnotify v1.9.0 // indirect
+	github.com/go-chi/chi/v5 v5.2.3
 	github.com/go-chi/jwtauth v1.2.0
 	github.com/go-viper/mapstructure/v2 v2.4.0 // indirect
 	github.com/google/uuid v1.6.0
