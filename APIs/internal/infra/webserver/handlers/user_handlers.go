@@ -7,10 +7,13 @@ import (
 	"github.com/PauloPimentel-github/go-expert/APIs/internal/dto"
 	"github.com/PauloPimentel-github/go-expert/APIs/internal/entity"
 	"github.com/PauloPimentel-github/go-expert/APIs/internal/infra/database"
+	"github.com/go-chi/jwtauth"
 )
 
 type UserHandler struct {
-	UserDB database.UserInterface
+	UserDB       database.UserInterface
+	Jwt          *jwtauth.JWTAuth
+	JwtExpiresIn int
 }
 
 func NewUserHandler(userDB database.UserInterface) *UserHandler {
