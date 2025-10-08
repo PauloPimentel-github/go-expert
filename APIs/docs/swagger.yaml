@@ -1,0 +1,21 @@
+basePath: /
+host: localhost:8000
+info:
+  contact:
+    email: atendimento@ph.com.br
+    name: Paulo Pimentel
+    url: http://www.ph.com.br
+  description: Product API with auhtentication
+  license:
+    name: Full Cycle License
+    url: http://www.ph.com.br
+  termsOfService: http://swagger.io/terms/
+  title: Go Expert API Example
+  version: "1.0"
+paths: {}
+securityDefinitions:
+  ApiKeyAuth:
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"
