@@ -30,4 +30,5 @@ func Consume(ch *amqp.Channel, out chan<- amqp.Delivery) error {
 	for msg := range msgs {
 		out <- msg
 	}
+	return nil
 }
